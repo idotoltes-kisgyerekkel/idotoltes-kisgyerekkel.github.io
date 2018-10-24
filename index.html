@@ -2,6 +2,9 @@
 <!DOCTYPE html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+html,body,table { height: 98%; }
+</style>
 </head>
 <body>
 <script>
@@ -100,7 +103,7 @@ var things = [
 'Múzeumok',
 ];
 var thing = things[Math.floor(Math.random()*things.length)];
-document.write('<table border=1 style="font-size:300%;width:100%;line-height:100%"><tr><td style="vertical-align:middle;text-align: center">' + thing + '</tr></td></table>');
+document.write('<table style="font-size:300%;width:100%"><tr><td style="vertical-align:middle;text-align: center">' + thing + '</tr></td></table>');
 </script>
 </body>
 </html>
